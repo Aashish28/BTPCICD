@@ -8,5 +8,6 @@ using {
 entity Employee : cuid , managed {
   name : String(30);
   dept : String(10);  
+  gender: String(1);
 }
   
