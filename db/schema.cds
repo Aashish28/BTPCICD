@@ -10,6 +10,6 @@ entity Employee : cuid , managed {
   dept : String(10);  
   gender: String(1);
   status: String(1);
-  country: String(15);
+  country: String(25);
 }
   
