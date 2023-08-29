@@ -11,5 +11,7 @@ entity Employee : cuid , managed {
   gender: String(1);
   status: String(1);
   country: String(25);
+  salary: Decimal(5,2);
+  currency: String(4);
 }
   
